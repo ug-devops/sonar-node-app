@@ -1,15 +1,14 @@
 {
-  "name": "app",
+  "name": "your-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "mocha",
+    "test:coverage": "nyc npm test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.20.0"
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "mocha-junit-reporter": "^2.2.1",
+    "nyc": "^15.0.0"
   }
 }
