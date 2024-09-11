@@ -2,7 +2,8 @@
   "name": "your-app",
   "version": "1.0.0",
   "scripts": {
-    "test": "mocha --reporter mocha-junit-reporter"
+    "test": "mocha --reporter mocha-junit-reporter",
+    "build": "echo \"Building the app\" && exit 0"
   },
   "devDependencies": {
     "mocha": "^10.0.0",
