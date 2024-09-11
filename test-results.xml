@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.004" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-09-11T16:26:38" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Array" timestamp="2024-09-11T16:26:38" tests="1" file="/home/usman-saleem/sonarqube/node-app/test.js" time="0.002" failures="0">
+    <testcase name="Array should return -1 when the value is not present" time="0.000" classname="should return -1 when the value is not present">
+    </testcase>
+  </testsuite>
+</testsuites>
